@@ -3,10 +3,11 @@ package main
 import (
 	"bufio"
 	"flag"
-	"fork-account/util"
 	"os"
 	"strconv"
 	"strings"
+
+	"github.com/tyru/fork-twitter-account/util"
 )
 
 func main() {

@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"fork-account/util"
 	"os"
+
+	"github.com/tyru/fork-twitter-account/util"
 )
 
 func main() {
