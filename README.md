@@ -23,7 +23,7 @@ But above execution doesn't care abandonment due to rate limit, or and so on.
 You can save `not followed users` as `followings.txt` like this:
 
 ```
-$ go run list-following.go >followings.txt
+$ go run list-following.go _tyru_ >followings.txt
 $ go run follow-users.go -w followings.txt
 ```
 
